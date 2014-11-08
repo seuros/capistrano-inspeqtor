@@ -1,0 +1,8 @@
+/Gemfile.lock
+.fbi
+/pkg/
+.cia
+.nsa
+*.gem
+.idea
+
