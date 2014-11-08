@@ -26,6 +26,14 @@ Or install it yourself as:
     require 'capistrano/inspeqtor'
 ```
 
+By default inspeqtor hooks will run on all roles.
+You can change this behavior by setting :inspeqtor_role
+
+```
+ role :app, %w{example.com}
+ set :inspeqtor_role, :app
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/seuros/capistrano-inspeqtor/fork )
