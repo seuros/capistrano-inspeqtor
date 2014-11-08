@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Abdelkader Boudih']
   spec.email         = ['terminale@gmail.com']
   spec.summary       = %q(Inspeqtor integration for Capistrano)
+  spec.homepage      = 'https://github.com/seuros/capistrano-inspeqtor'
   spec.description   = spec.summary
   spec.license       = 'LGPLv3'
 
