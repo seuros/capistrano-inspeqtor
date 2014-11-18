@@ -6,9 +6,7 @@ namespace :load do
 end
 
 namespace :deploy do
-  before :starting do
-      invoke 'inspeqtor:add_default_hooks'
-  end
+  before :starting, 'inspeqtor:add_default_hooks'
 end
 
 namespace :inspeqtor do
