@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'capistrano-inspeqtor'
+gem 'capistrano-inspeqtor', require: false
 ```
 
 And then execute:
