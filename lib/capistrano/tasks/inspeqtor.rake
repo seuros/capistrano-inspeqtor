@@ -1,7 +1,7 @@
 namespace :load do
   task :defaults do
     set :inspeqtor_role, -> { :all }
-    set :inspeqtor_bin, '/usr/bin/inspeqtor'
+    set :inspeqtor_bin, '/usr/bin/inspeqtorctl'
   end
 end
 
